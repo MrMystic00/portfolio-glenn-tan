@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <>
       <Nav />
-
       {/* HERO SECTION */}
       <section id="home" className="min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center px-6 md:px-16 pt-32 pb-16 max-w-7xl mx-auto gap-16 transition-colors duration-500">
         <div className="space-y-6">
