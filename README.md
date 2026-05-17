@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✦ Chiaroscuro Portfolio Template
 
-## Getting Started
+A premium, gallery-inspired portfolio template crafted for software engineers, designers, and creative technologists who value typography, balance, and clean scannability. 
 
-First, run the development server:
+Built natively with **Next.js (App Router)** and **Tailwind CSS v4**, it ditches clinical, blinding white themes in favor of a tactile, high-end print look.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[ Live Demo ] • [ Report Bug ] • [ Request Feature ]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Tailwind CSS v4 Native:** Leverages the brand new CSS-first `@theme` configuration engine for ultra-fast, compilation-error-free setups.
+* **Dual-Palette Engine:** Seamlessly transitions between a **Day Palette** (Gallery Parchment Cream & Warm Sage) and a **Night Palette** (Premium Charcoal Slate & Warm Gold).
+* **Smooth-Scroll Reveal:** Uses a custom performance-optimized React Hook backed by a native `IntersectionObserver` to reveal components gracefully as the user scrolls.
+* **Dynamic Active Navigation:** A responsive header that actively updates highlights as sections are brought into focus.
+* **Micro-Textures:** Built-in CSS grain overlay that softens screen glare and gives the portfolio an organic, editorial editorial-magazine feel.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS v4
+* **Fonts:** Google Fonts via `next/font` (Cormorant Garamond & DM Sans)
+* **State Management:** React Context API (Theme Provider Engine)
