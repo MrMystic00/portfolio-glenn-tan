@@ -20,7 +20,7 @@ export default function Home() {
             <span className="w-8 h-[1px] bg-accent inline-block" /> Available for opportunities
           </div>
           <h1 className="font-serif text-6xl md:text-8xl font-light butchered leading-none tracking-tight">
-            Your <span className="text-accent font-semibold">Name</span>
+            Glenn <span className="text-accent font-semibold">Tan</span>
           </h1>
           <p className="font-serif text-xl md:text-2xl text-muted italic font-light">Designer &amp; Developer</p>
           <p className="text-muted max-w-md text-sm md:text-base leading-relaxed font-light">
@@ -65,7 +65,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="border-t border-borderCustom px-6 md:px-16 py-12 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 transition-colors duration-500">
-        <div className="font-serif text-lg text-accent">Your Name.</div>
+        <div className="font-serif text-lg text-accent">Glenn Tan</div>
         <div className="flex gap-6 text-xs text-muted uppercase tracking-wider">
           <a href="#" className="hover:text-accent transition-colors">LinkedIn</a>
           <a href="#" className="hover:text-accent transition-colors">GitHub</a>
