@@ -69,7 +69,6 @@ export default function Home() {
         <div className="flex gap-6 text-xs text-muted uppercase tracking-wider">
           <a href="#" className="hover:text-accent transition-colors">LinkedIn</a>
           <a href="#" className="hover:text-accent transition-colors">GitHub</a>
-          <a href="#" className="hover:text-accent transition-colors">Dribbble</a>
         </div>
         <p className="text-[11px] text-muted">&copy; {currentYear} Your Name. All rights reserved.</p>
       </footer>

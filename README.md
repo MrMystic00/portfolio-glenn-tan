@@ -25,3 +25,11 @@ Built natively with **Next.js (App Router)** and **Tailwind CSS v4**, it ditches
 
 # ✦ Dark (Animation) Template
 ![alt text](image-1.png)
+
+Manage changes to commit on your branch 
+git add . 
+git commit -m "Message"
+git push origin main 
+
+Deploy on live
+vercel --prod
