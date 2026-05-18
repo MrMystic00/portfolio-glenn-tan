@@ -6,6 +6,8 @@ Built natively with **Next.js (App Router)** and **Tailwind CSS v4**, it ditches
 
 [ Live Demo ] • [ Report Bug ] • [ Request Feature ]
 
+![alt text](image.png)
+
 ## ✨ Features
 
 * **Tailwind CSS v4 Native:** Leverages the brand new CSS-first `@theme` configuration engine for ultra-fast, compilation-error-free setups.
@@ -20,3 +22,6 @@ Built natively with **Next.js (App Router)** and **Tailwind CSS v4**, it ditches
 * **Styling:** Tailwind CSS v4
 * **Fonts:** Google Fonts via `next/font` (Cormorant Garamond & DM Sans)
 * **State Management:** React Context API (Theme Provider Engine)
+
+# ✦ Dark (Animation) Template
+![alt text](image-1.png)
