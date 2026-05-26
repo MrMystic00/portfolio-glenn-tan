@@ -23,7 +23,7 @@ const mono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GTWZ — Portfolio",
+  title: "Glenn — Portfolio",
   description: "Portfolio",
 };
 

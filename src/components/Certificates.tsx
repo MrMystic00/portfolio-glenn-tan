@@ -5,12 +5,7 @@ interface CertItem {
   }
   
   const certificatesList: CertItem[] = [
-    { name: "AWS Certified Solutions Architect", issuer: "Amazon Web Services", date: "Jan 2024" },
-    { name: "Google UX Design Professional Certificate", issuer: "Google / Coursera", date: "Aug 2023" },
-    { name: "Meta Front-End Developer Certificate", issuer: "Meta / Coursera", date: "Mar 2023" },
-    { name: "Machine Learning Specialization", issuer: "Stanford / Coursera", date: "Nov 2022" },
-    { name: "Figma Advanced Design Systems", issuer: "Figma Community", date: "Jun 2022" },
-    { name: "Professional Scrum Master I", issuer: "Scrum.org", date: "Feb 2022" },
+    { name: "AWS Certified Cloud Partitioner", issuer: "Amazon Web Services", date: "Sep 2025" },
   ];
   
   export default function Certificates() {

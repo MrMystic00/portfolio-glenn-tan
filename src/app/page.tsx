@@ -22,15 +22,15 @@ export default function Home() {
           <h1 className="font-serif text-6xl md:text-8xl font-light butchered leading-none tracking-tight">
             Glenn <span className="text-accent font-semibold">Tan</span>
           </h1>
-          <p className="font-serif text-xl md:text-2xl text-muted italic font-light">Designer &amp; Developer</p>
+          <p className="font-serif text-xl md:text-2xl text-muted italic font-light">Data Analyst / Data Scientist </p>
           <p className="text-muted max-w-md text-sm md:text-base leading-relaxed font-light">
-            I craft thoughtful digital experiences — blending sharp design with robust engineering. Passionate about products that make people's lives genuinely better.
+            Data Analytics & Data Science student passionate about transforming complex data into actionable insights through machine learning, optimization, and visualization.
           </p>
           <div className="flex gap-4 pt-4 flex-wrap">
             <a href="#projects" className="px-8 py-3 bg-accent text-bg font-medium text-xs tracking-widest uppercase transition-all hover:bg-accent2 hover:-translate-y-0.5">
               View My Work
             </a>
-            <a href="mailto:you@email.com" className="px-8 py-3 border border-borderCustom text-textMain font-medium text-xs tracking-widest uppercase transition-all hover:border-accent hover:-translate-y-0.5">
+            <a href="mailto:GTAN099@e.ntu.edu.sg" className="px-8 py-3 border border-borderCustom text-textMain font-medium text-xs tracking-widest uppercase transition-all hover:border-accent hover:-translate-y-0.5">
               Get In Touch
             </a>
           </div>
@@ -45,11 +45,11 @@ export default function Home() {
             <div className="absolute top-6 left-6 -right-6 -bottom-6 border border-borderCustom -z-10 transition-colors duration-500" />
             <div className="absolute -bottom-6 -right-8 flex flex-col gap-2">
               <div className="bg-cardBg border border-borderCustom px-4 py-2.5 flex items-center gap-3 transition-colors duration-500">
-                <span className="font-serif text-xl font-semibold text-accent">3+</span>
+                <span className="font-serif text-xl font-semibold text-accent">0.5</span>
                 <span className="text-[10px] tracking-wider text-muted uppercase whitespace-nowrap">Years Exp</span>
               </div>
               <div className="bg-cardBg border border-borderCustom px-4 py-2.5 flex items-center gap-3 transition-colors duration-500">
-                <span className="font-serif text-xl font-semibold text-accent">12</span>
+                <span className="font-serif text-xl font-semibold text-accent">4</span>
                 <span className="text-[10px] tracking-wider text-muted uppercase whitespace-nowrap">Projects Done</span>
               </div>
             </div>
@@ -67,10 +67,10 @@ export default function Home() {
       <footer className="border-t border-borderCustom px-6 md:px-16 py-12 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 transition-colors duration-500">
         <div className="font-serif text-lg text-accent">Glenn Tan</div>
         <div className="flex gap-6 text-xs text-muted uppercase tracking-wider">
-          <a href="#" className="hover:text-accent transition-colors">LinkedIn</a>
-          <a href="#" className="hover:text-accent transition-colors">GitHub</a>
+          <a href="https://github.com/MrMystic00" className="hover:text-accent transition-colors">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/glenn-tan-90b14d63/" className="hover:text-accent transition-colors">GitHub</a>
         </div>
-        <p className="text-[11px] text-muted">&copy; {currentYear} Your Name. All rights reserved.</p>
+        <p className="text-[11px] text-muted">&copy; {currentYear} Glenn Tan. All rights reserved.</p>
       </footer>
     </>
   );
