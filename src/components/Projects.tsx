@@ -9,12 +9,12 @@ interface ProjectItem {
 
 const projectList: ProjectItem[] = [
   {
-    icon: "🧠",
-    name: "AI Writing Assistant",
-    desc: "A browser extension that uses LLMs to help writers improve clarity, tone, and style in real-time. Built with TypeScript and integrated with the OpenAI API.",
-    tags: ["TypeScript", "OpenAI", "Chrome API"],
+    icon: "✈️",
+    name: "Tokyo Itinerary Optimiser Website",
+    desc: "Developed a browser extension utilizing Gurobi optimization models to generate optimized attraction recommendations and travel planning in Tokyo, Japan.",
+    tags: ["Gurobi", "Python", "Optimisation"],
     link: "#",
-    linkText: "View Project →"
+    linkText: "View Github →"
   },
   {
     icon: "📊",

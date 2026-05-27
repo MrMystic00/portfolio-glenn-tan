@@ -26,7 +26,7 @@ export default function Nav() {
 
   return (
     <nav className="fixed top-0 inset-x-0 z-40 flex justify-between items-center px-6 md:px-16 py-5 border-b border-borderCustom bg-bg/85 backdrop-blur-md transition-colors duration-500">
-      <a href="#home" className="font-serif text-xl font-semibold text-accent tracking-wide">YN.</a>
+      <a href="#home" className="font-serif text-xl font-semibold text-accent tracking-wide">About Me</a>
       
       <div className="flex items-center gap-6 md:gap-10">
         <ul className="flex gap-4 md:gap-8 text-[11px] tracking-widest uppercase font-medium">
