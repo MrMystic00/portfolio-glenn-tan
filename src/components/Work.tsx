@@ -8,25 +8,25 @@ interface WorkItem {
   
   const workHistory: WorkItem[] = [
     {
-      period: "2023 — Present",
-      role: "Senior Product Designer",
-      company: "Company Name · Full-time",
-      desc: "Led end-to-end design for the core product suite. Worked closely with engineering and product to ship features used by 200k+ users. Established a design system that reduced component build time by 40%.",
-      tags: ["Figma", "Design Systems", "User Research"],
+      period: "2025 ",
+      role: "Data Analytics Intern",
+      company: "SBS Transit Rail Pte. Ltd. · Internship",
+      desc: "Data analytics experience in transportation and asset management, involving data cleaning, transformation, forecasting, and dashboard development using Python, SQL, AWS Athena, Amazon SageMaker, and Power BI. Worked on large-scale datasets to support operational decision-making, optimise processing workflows, and develop visual analytics solutions for train disruption management and inventory demand forecasting.",
+      tags: ["Data Analytics", "Time Series", "Python"],
     },
     {
-      period: "2021 — 2023",
-      role: "Frontend Developer",
-      company: "Another Company · Full-time",
-      desc: "Built and maintained React-based web applications. Collaborated with designers to implement pixel-perfect interfaces and led migration from a legacy codebase to a modern stack.",
-      tags: ["React", "TypeScript", "Node.js"],
+      period: "2021 — 2022",
+      role: "Section Sergeant Automotive Technician",
+      company: "Singapore Armed Forces · National Service",
+      desc: "Served in the Singapore Armed Forces as a Section Sergeant Automotive Technician, leading a team of approximately 70 servicemen in maintenance operations and training activities. Provided technical support for preventive maintenance operations, conducted On Job Experience training for multiple trainee batches, and demonstrated strong leadership and teamwork skills, earning recognition as Best Section Commander and Best Section during Maintenance Field Training.",
+      tags: ["Leadership", "Coaching", "Communication"],
     },
     {
-      period: "2020 — 2021",
-      role: "UI/UX Designer",
-      company: "Freelance · Contract",
-      desc: "Delivered brand identities, mobile app designs, and marketing websites for startups across Southeast Asia. Managed client relationships from brief to final handoff.",
-      tags: ["Branding", "Mobile Design", "Prototyping"],
+      period: "2019 — 2020",
+      role: "Routine Maintenance Intern ",
+      company: "Shell Chemicals Seraya Pte. Ltd. · Internship ",
+      desc: "Completed an internship at Shell Chemicals Seraya Pte. Ltd. in routine maintenance operations, supporting procurement, logistics coordination, and project tracking activities. Communicated with multiple vendors, assisted in purchasing maintenance materials through SAP, coordinated material dispatch schedules with warehouse logistics, and monitored maintenance project progress using Microsoft Excel.",
+      tags: ["Communication", "Excel", "Routine Planning"],
     },
   ];
   

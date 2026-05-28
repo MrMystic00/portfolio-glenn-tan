@@ -8,19 +8,25 @@ interface Skill {
 
 const skillGroups = [
   {
-    category: "Design",
+    category: "Knowledge Domain",
     items: [
-      { name: "Figma", pct: 95 },
-      { name: "UI/UX Design", pct: 90 },
-      { name: "Design Systems", pct: 85 },
+      { name: "Time Series"},
+      { name: "Financial Econometrics"},
+      { name: "Deep Learing"},
+      { name: "Machine Learning"},
+      { name: "Optimisation"},
+      { name: "Discrete Mathematics"}
     ]
   },
   {
-    category: "Frontend",
+    category: "Software Skills",
     items: [
-      { name: "React / Next.js", pct: 90 },
-      { name: "TypeScript", pct: 82 },
-      { name: "Tailwind CSS", pct: 92 },
+      { name: "Python"},
+      { name: "R"},
+      { name: "SQL"},
+      { name: "PowerBI"},
+      { name: "Git"},
+      { name: "AWS"}
     ]
   }
 ];

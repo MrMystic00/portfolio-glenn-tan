@@ -67,8 +67,8 @@ export default function Home() {
       <footer className="border-t border-borderCustom px-6 md:px-16 py-12 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 transition-colors duration-500">
         <div className="font-serif text-lg text-accent">Glenn Tan</div>
         <div className="flex gap-6 text-xs text-muted uppercase tracking-wider">
-          <a href="https://github.com/MrMystic00" className="hover:text-accent transition-colors">LinkedIn</a>
-          <a href="https://www.linkedin.com/in/glenn-tan-90b14d63/" className="hover:text-accent transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/glenn-tan-90b14d63/" className="hover:text-accent transition-colors">LinkedIn</a>
+          <a href="https://github.com/MrMystic00" className="hover:text-accent transition-colors">GitHub</a>
         </div>
         <p className="text-[11px] text-muted">&copy; {currentYear} Glenn Tan. All rights reserved.</p>
       </footer>

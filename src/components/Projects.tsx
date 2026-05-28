@@ -13,33 +13,34 @@ const projectList: ProjectItem[] = [
     name: "Tokyo Itinerary Optimiser Website",
     desc: "Developed a browser extension utilizing Gurobi optimization models to generate optimized attraction recommendations and travel planning in Tokyo, Japan.",
     tags: ["Gurobi", "Python", "Optimisation"],
-    link: "#",
+    link: "https://github.com/MrMystic00/Tokyo-Itinerary-Optimiser-App",
     linkText: "View Github →"
   },
   {
-    icon: "📊",
-    name: "Analytics Dashboard",
-    desc: "Real-time analytics platform for e-commerce teams. Features live data visualizations, cohort analysis, and automated reporting built with React and D3.js.",
-    tags: ["React", "D3.js", "Python"],
-    link: "#",
+    icon: "🐾",
+    name: "Pet Image Classifier with Deep Learning",
+    desc: "Developed a deep learning model using ResNet34 to classify different cat and dog breeds, while experimenting with various optimisers and learning rates to evaluate model performance.",
+    tags: ["Python", "Deep Learning", "PyTorch"],
+    link: "https://github.com/MrMystic00/Pet-Image-Classifier-Project",
     linkText: "View Project →"
   },
   {
-    icon: "🌿",
-    name: "Sustainable Living App",
-    desc: "Mobile app helping users track their carbon footprint and discover eco-friendly alternatives. Over 5,000 downloads in the first month. Designed and built solo.",
-    tags: ["React Native", "Firebase", "Figma"],
-    link: "#",
+    icon: "🎓",
+    name: "Data Analysis on QS World Ranking",
+    desc: "This project explores the factors influencing university rankings using the QS World University Rankings 2024 dataset obtained from Kaggle. The analysis focuses on understanding how institutional characteristics and performance indicators relate to global university rankings through statistical analysis and regression techniques.",
+    tags: ["R", "Data Analysis", "Statitsitcal Testing", "Linear Regression"],
+    link: "https://github.com/MrMystic00/QS-World-Ranking-Data-Analysis",
     linkText: "View Project →"
-  },
-  {
-    icon: "🔐",
-    name: "Auth Microservice",
-    desc: "Open-source authentication microservice with OAuth2, JWT, and role-based access control. 300+ GitHub stars and actively maintained.",
-    tags: ["Node.js", "PostgreSQL", "Docker"],
-    link: "#",
-    linkText: "View on GitHub →"
   }
+// ,
+//   {
+//     icon: "🔐",
+//     name: "Auth Microservice",
+//     desc: "Open-source authentication microservice with OAuth2, JWT, and role-based access control. 300+ GitHub stars and actively maintained.",
+//     tags: ["Node.js", "PostgreSQL", "Docker"],
+//     link: "#",
+//     linkText: "View on GitHub →"
+//   }
 ];
 
 export default function Projects() {
