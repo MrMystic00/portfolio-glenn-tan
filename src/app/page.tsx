@@ -5,6 +5,7 @@ import Projects from "@/components/Projects";
 import Certificates from "@/components/Certificates";
 import Skills from "@/components/Skills";
 import { useReveal } from "@/hooks/useReveal";
+import profile from "./profile.jpg";
 
 export default function Home() {
   useReveal(); // Initialize our interactive scroll reveal observer
@@ -39,20 +40,17 @@ export default function Home() {
         {/* Hero Geometric Frame Graphic */}
         <div className="hidden lg:flex justify-center items-center relative">
           <div className="relative w-[340px] h-[420px]">
-            <div className="w-full h-full bg-bg3 border border-borderCustom flex items-center justify-center font-serif text-7xl text-accent/60 transition-colors duration-500">
-              ✦
-            </div>
+            
+            {/* YOUR IMAGE REPLACES THE EMPTY DIV HERE */}
+            <img 
+              src={profile.src} // Replace with your image path or URL
+              alt="Glenn's Portfolio Image"
+              className="w-full h-full object-cover border border-borderCustom transition-colors duration-500"
+            />
+
+            {/* Decorative background border effect */}
             <div className="absolute top-6 left-6 -right-6 -bottom-6 border border-borderCustom -z-10 transition-colors duration-500" />
-            <div className="absolute -bottom-6 -right-8 flex flex-col gap-2">
-              <div className="bg-cardBg border border-borderCustom px-4 py-2.5 flex items-center gap-3 transition-colors duration-500">
-                <span className="font-serif text-xl font-semibold text-accent">0.5</span>
-                <span className="text-[10px] tracking-wider text-muted uppercase whitespace-nowrap">Years Exp</span>
-              </div>
-              <div className="bg-cardBg border border-borderCustom px-4 py-2.5 flex items-center gap-3 transition-colors duration-500">
-                <span className="font-serif text-xl font-semibold text-accent">4</span>
-                <span className="text-[10px] tracking-wider text-muted uppercase whitespace-nowrap">Projects Done</span>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>

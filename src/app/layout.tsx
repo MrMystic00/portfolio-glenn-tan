@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { DM_Sans, Cormorant_Garamond, DM_Mono } from "next/font/google";
 import { ThemeProvider } from "@/context/ThemeContext";
 import "./globals.css";
-import Image from "next/image";
 
 // ─── FONT INITIALIZATIONS ───
 const sans = DM_Sans({
@@ -28,18 +27,6 @@ export const metadata: Metadata = {
   description: "Portfolio",
 };
 
-export default function Hero() {
-  return (
-    <Image
-      src="/profile.jpg"
-      alt="Glenn profile picture"
-      width={300}
-      height={300}
-      className="rounded-full"
-    />
-  );
-}
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -52,7 +39,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           {/* Subtle noise texture overlay */}
-          <div className="bg-[url('/profile.jpg')] bg-cover bg-center" />
+          <div className="fixed inset-0 pointer-events-none opacity-[0.025] dark:opacity-[0.015] z-50 bg-[url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22/%3E%3C/svg%3E')]" />
           {children}
         </ThemeProvider>
       </body>

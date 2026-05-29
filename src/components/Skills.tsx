@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from 'react';
 
 interface Skill {
   name: string;
-  pct: number;
 }
 
 const skillGroups = [
@@ -15,7 +14,8 @@ const skillGroups = [
       { name: "Deep Learing"},
       { name: "Machine Learning"},
       { name: "Optimisation"},
-      { name: "Discrete Mathematics"}
+      { name: "Discrete Mathematics"},
+      { name: "Data Analytics"}
     ]
   },
   {
@@ -65,13 +65,6 @@ export default function Skills() {
               <div key={skill.name} className="space-y-2">
                 <div className="flex justify-between text-sm">
                   <span className="font-light">{skill.name}</span>
-                  <span className="font-mono text-xs text-muted">{skill.pct}%</span>
-                </div>
-                <div className="h-[2px] bg-bg3 relative overflow-hidden">
-                  <div
-                    className="absolute top-0 left-0 bottom-0 bg-accent transition-transform duration-1000 ease-out origin-left"
-                    style={{ transform: animate ? `scaleX(${skill.pct / 100})` : 'scaleX(0)' }}
-                  />
                 </div>
               </div>
             ))}
